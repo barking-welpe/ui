@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.6 (2021-02-22)
+
+
+### Bug Fixes
+
+* **button:** remove dev dependency ([5a65b9f](https://github.com/barking-welpe/ui/commit/5a65b9faff8a3ad4c8027e092ec2d423026f5c72))
+
+
+
+
+
 ## 0.0.5 (2021-02-22)
 
 **Note:** Version bump only for package @barking-welpe/button
