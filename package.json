@@ -1,0 +1,70 @@
+{
+  "name": "ui",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "api-docs": "scripty",
+    "api-report": "scripty",
+    "build": "scripty",
+    "clean": "scripty",
+    "postinstall": "scripty",
+    "lint": "scripty",
+    "nuke": "scripty",
+    "prod-publish": "scripty",
+    "proxy-registry": "scripty",
+    "sort": "scripty",
+    "storybook": "scripty",
+    "storybook:build": "build-storybook",
+    "test": "scripty",
+    "test-publish": "scripty"
+  },
+  "lint-staged": {
+    "packages/**/src/*.{js,ts,tsx,jsx,json,css}": [
+      "yarn sort && prettier --single-quote --write"
+    ],
+    "*.{md,mdx,yml}": [
+      "yarn sort && prettier --write"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "7.12.17",
+    "@commitlint/cli": "11.0.0",
+    "@commitlint/config-conventional": "11.0.0",
+    "@commitlint/config-lerna-scopes": "11.0.0",
+    "@microsoft/api-documenter": "7.12.7",
+    "@microsoft/api-extractor": "7.13.1",
+    "@storybook/addon-actions": "6.1.18",
+    "@storybook/addon-essentials": "6.1.18",
+    "@storybook/addon-links": "6.1.18",
+    "@storybook/react": "6.1.18",
+    "@types/jest": "26.0.20",
+    "@types/styled-components": "5.1.7",
+    "@typescript-eslint/eslint-plugin": "4.15.1",
+    "@typescript-eslint/parser": "4.15.1",
+    "babel-loader": "8.2.2",
+    "commitlint": "11.0.0",
+    "eslint": "7.20.0",
+    "eslint-plugin-jest": "24.1.5",
+    "husky": "5.1.0",
+    "is-ci": "3.0.0",
+    "lerna": "3.22.1",
+    "lint-staged": "10.5.4",
+    "prettier": "2.2.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "rimraf": "3.0.2",
+    "scripty": "2.0.0",
+    "sort-package-json": "1.49.0",
+    "styled-components": "5.2.1",
+    "typescript": "4.1.5"
+  },
+  "engines": {
+    "node": ">=14.15",
+    "yarn": ">=1.22"
+  },
+  "scripty": {
+    "path": "./scripts/workspaces"
+  }
+}

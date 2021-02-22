@@ -1,0 +1,36 @@
+{
+  "name": "@barking-welpe/theme",
+  "version": "0.0.0",
+  "homepage": "https://github.com/barking-welpe/ui",
+  "bugs": "https://github.com/barking-welpe/ui/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/barking-welpe/ui.git",
+    "directory": "packages/theme"
+  },
+  "license": "MIT",
+  "author": "Dan Kreiger <dan@dankreiger.com>",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "api-report": "scripty",
+    "build": "scripty",
+    "clean": "rimraf lib *.tsbuildinfo",
+    "lint": "scripty",
+    "nuke": "scripty",
+    "sort": "scripty",
+    "test": "scripty"
+  },
+  "devDependencies": {
+    "@types/jest": "26.0.20",
+    "jest": "26.6.3",
+    "scripty": "2.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  },
+  "scripty": {
+    "path": "../../scripts/packages"
+  }
+}
