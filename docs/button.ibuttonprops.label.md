@@ -4,10 +4,13 @@
 
 ## IButtonProps.label property
 
-Button contents
-
 <b>Signature:</b>
 
 ```typescript
 label: string;
 ```
+
+## Remarks
+
+Button contents
+

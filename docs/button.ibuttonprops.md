@@ -16,7 +16,7 @@ export interface IButtonProps
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [label](./button.ibuttonprops.label.md) | string | Button contents |
-|  [onClick?](./button.ibuttonprops.onclick.md) | () =&gt; void | <i>(Optional)</i> Optional click handler |
-|  [primary](./button.ibuttonprops.primary.md) | boolean | Is this the principal call to action on the page? |
+|  [label](./button.ibuttonprops.label.md) | string |  |
+|  [onClick?](./button.ibuttonprops.onclick.md) | () =&gt; void | <i>(Optional)</i> |
+|  [primary](./button.ibuttonprops.primary.md) | boolean |  |
 

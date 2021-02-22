@@ -12,8 +12,11 @@ export const Button: React_2.FC<IButtonProps>;
 
 // @public
 export interface IButtonProps {
+    // (undocumented)
     label: string;
+    // (undocumented)
     onClick?: () => void;
+    // (undocumented)
     primary: boolean;
 }
 

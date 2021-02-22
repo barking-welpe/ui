@@ -4,10 +4,13 @@
 
 ## IButtonProps.primary property
 
-Is this the principal call to action on the page?
-
 <b>Signature:</b>
 
 ```typescript
 primary: boolean;
 ```
+
+## Remarks
+
+Is this the principal call to action on the page?
+

@@ -131,3 +131,6 @@ package.tmp.json
 
 .DS_Store
 
+
+# storybook
+storybook-static

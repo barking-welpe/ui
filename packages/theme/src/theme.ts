@@ -16,10 +16,10 @@ const defaultTheme: Theme = {
  * Theme color getter
  */
 const getColor = (prop: EColor) => ({
-  theme: { colors } = defaultTheme,
+  theme = defaultTheme,
 }: {
   theme: Theme;
-}): string => colors[prop];
+}): string => theme.colors[prop];
 
 export { EBase, EColor, defaultTheme, getColor };
 export type { Colors, Theme };

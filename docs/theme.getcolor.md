@@ -9,7 +9,7 @@ Theme color getter
 <b>Signature:</b>
 
 ```typescript
-getColor: (prop: EColor) => ({ theme: { colors }, }: {
+getColor: (prop: EColor) => ({ theme, }: {
     theme: Theme;
 }) => string
 ```

@@ -4,10 +4,13 @@
 
 ## IButtonProps.onClick property
 
-Optional click handler
-
 <b>Signature:</b>
 
 ```typescript
 onClick?: () => void;
 ```
+
+## Remarks
+
+Optional click handler
+

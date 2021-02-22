@@ -29,7 +29,7 @@ export enum EColor {
 }
 
 // @public
-export const getColor: (prop: EColor) => ({ theme: { colors }, }: {
+export const getColor: (prop: EColor) => ({ theme, }: {
     theme: Theme;
 }) => string;
 
