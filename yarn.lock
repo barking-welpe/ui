@@ -1132,6 +1132,11 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
+"@barking-welpe/theme@^0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@barking-welpe/theme/-/theme-0.0.7.tgz#8a69fa95a2fee18e5b890028d2ce51a160f0e679"
+  integrity sha512-vCD6TzctEr6o6QdQ6zl93vilVqKR1RA3t1Ba6xvsH+t3o1hBivSI3XfDpKQNl6trGEB/u+pdxOeeWUoJQIvAOA==
+
 "@base2/pretty-print-object@1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@base2/pretty-print-object/-/pretty-print-object-1.0.0.tgz#860ce718b0b73f4009e153541faff2cb6b85d047"
