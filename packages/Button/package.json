@@ -22,7 +22,7 @@
     "test": "scripty"
   },
   "dependencies": {
-    "@barking-welpe/theme": "^0.0.7"
+    "@barking-welpe/theme": "^0.0.6"
   },
   "devDependencies": {
     "@types/jest": "26.0.20",
