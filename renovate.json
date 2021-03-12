@@ -13,9 +13,7 @@
   "packageRules": [
     {
       "packageNames": [
-        "typescript",
-        "tslint",
-        "typedoc"
+        "typescript"
       ],
       "groupName": "typescript packages",
       "groupSlug": "typescript",
