@@ -1,18 +1,37 @@
 {
   "extends": [
-    "config:base"
+    "config:base",
+    "config:js-app",
+    ":automergePatch",
+    ":automergeMinor",
+    ":semanticCommits"
   ],
+  "lockFileMaintenance": true,
   "reviewers": [
     "dankreiger"
   ],
   "packageRules": [
     {
-      "matchUpdateTypes": [
-        "patch",
-        "pin",
-        "digest"
+      "packageNames": [
+        "typescript",
+        "tslint",
+        "typedoc"
       ],
-      "automerge": true
+      "groupName": "typescript packages",
+      "groupSlug": "typescript",
+      "minor": {
+        "automerge": false
+      }
+    },
+    {
+      "packageNames": [
+        "^@types"
+      ],
+      "groupName": "ambient types",
+      "groupSlug": "ambient-types",
+      "minor": {
+        "automerge": false
+      }
     }
   ]
 }
