@@ -12,6 +12,8 @@
 
 ### 🏠 [Homepage](https://github.com/barking-welpe/ui)
 
+### 📝 [Docs](https://barking-welpe.github.io/ui/)
+
 ### ✨ [Demo](https://friendly-mestorf-73d85a.netlify.app/)
 
 ## Prerequisites
