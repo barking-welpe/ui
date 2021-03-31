@@ -27,7 +27,7 @@
     "scripty": "2.0.0"
   },
   "peerDependencies": {
-    "styled-components": "5.2.2"
+    "styled-components": "5.2.3"
   },
   "publishConfig": {
     "access": "public",
