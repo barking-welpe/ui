@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.57 (2021-04-07)
+
+**Note:** Version bump only for package @barking-welpe/theme
+
+
+
+
+
 ## 0.0.56 (2021-04-07)
 
 **Note:** Version bump only for package @barking-welpe/theme
