@@ -1,6 +1,6 @@
 {
   "name": "@barking-welpe/button",
-  "version": "0.0.55",
+  "version": "0.0.56",
   "homepage": "https://github.com/barking-welpe/ui",
   "bugs": "https://github.com/barking-welpe/ui/issues",
   "repository": {
@@ -22,7 +22,7 @@
     "test": "scripty"
   },
   "dependencies": {
-    "@barking-welpe/theme": "^0.0.55"
+    "@barking-welpe/theme": "^0.0.56"
   },
   "devDependencies": {
     "@types/jest": "26.0.22",
