@@ -34,7 +34,7 @@
     "@commitlint/config-conventional": "12.1.1",
     "@commitlint/config-lerna-scopes": "12.1.1",
     "@microsoft/api-documenter": "7.12.19",
-    "@microsoft/api-extractor": "7.13.3",
+    "@microsoft/api-extractor": "7.13.4",
     "@storybook/addon-actions": "6.2.5",
     "@storybook/addon-essentials": "6.2.5",
     "@storybook/addon-links": "6.2.5",
