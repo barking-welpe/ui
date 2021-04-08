@@ -2270,10 +2270,10 @@
   resolved "https://registry.yarnpkg.com/@mdx-js/util/-/util-1.6.22.tgz#219dfd89ae5b97a8801f015323ffa4b62f45718b"
   integrity sha512-H1rQc1ZOHANWBvPcW+JpGwr+juXSxM8Q8YCkm3GhZd8REu1fHR3z99CErO1p9pkcfcxZnMdIZdIsXkOHY0NilA==
 
-"@microsoft/api-documenter@7.12.19":
-  version "7.12.19"
-  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-7.12.19.tgz#ad92aca472ac9566e0c89b6e2e73744bea4c7686"
-  integrity sha512-4wsTX6Nqedg3mSphjt3mw5eL1rVGJP6NtKbB7T2Ieg3ky2RWOKiS9S9i80PSBQ19plWWqKReOBedRqT91In45Q==
+"@microsoft/api-documenter@7.12.20":
+  version "7.12.20"
+  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-7.12.20.tgz#9e274060a4bb1d7015e1e21930541db48002f1f6"
+  integrity sha512-DR1bZ96qSuJKuJtUlqSPET9kpksqwBeFFX6AvdXTO8oXOkTK7AZq1vetwdzMfIZvMBZH+Sssw8ki7rfMzhxgNQ==
   dependencies:
     "@microsoft/api-extractor-model" "7.12.4"
     "@microsoft/tsdoc" "0.12.24"
