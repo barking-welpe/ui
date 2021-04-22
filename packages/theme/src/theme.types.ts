@@ -15,6 +15,9 @@ export enum EColor {
   COPY = 'copy',
 }
 
+/**
+ * @public
+ */
 export type Colors = Record<EColor, string>;
 
 /**

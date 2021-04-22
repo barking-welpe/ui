@@ -7,7 +7,7 @@
 // @public (undocumented)
 export type Colors = Record<EColor, string>;
 
-// @public (undocumented)
+// @public
 export const defaultTheme: Theme;
 
 // @public (undocumented)
