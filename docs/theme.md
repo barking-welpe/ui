@@ -23,7 +23,7 @@ All interfaces are prefixed with `I` All enums are prefixed with `E`
 
 |  Variable | Description |
 |  --- | --- |
-|  [defaultTheme](./theme.defaulttheme.md) |  |
+|  [defaultTheme](./theme.defaulttheme.md) | Default theme |
 |  [getColor](./theme.getcolor.md) | Theme color getter |
 
 ## Type Aliases

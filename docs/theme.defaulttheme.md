@@ -4,6 +4,8 @@
 
 ## defaultTheme variable
 
+Default theme
+
 <b>Signature:</b>
 
 ```typescript

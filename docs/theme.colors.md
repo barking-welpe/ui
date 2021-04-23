@@ -4,6 +4,7 @@
 
 ## Colors type
 
+
 <b>Signature:</b>
 
 ```typescript

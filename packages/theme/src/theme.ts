@@ -1,6 +1,10 @@
 import { EBase, EColor } from './theme.types';
 import type { Colors, Theme } from './theme.types';
 
+/**
+ * @public
+ * Default theme
+ */
 const defaultTheme: Theme = {
   base: EBase.LIGHT,
   colors: {
