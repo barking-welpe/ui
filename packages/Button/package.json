@@ -25,7 +25,7 @@
     "@barking-welpe/theme": "^0.0.82"
   },
   "devDependencies": {
-    "@types/jest": "26.0.22",
+    "@types/jest": "26.0.23",
     "jest": "26.6.3",
     "scripty": "2.0.0"
   },
