@@ -11,7 +11,7 @@ export const globalTypes = {
     description: 'Global theme for components',
     defaultValue: items[0],
     toolbar: {
-      icon: 'circlehollow',
+      icon: 'paintbrush',
       // array of plain string values or MenuItem shape (see below)
       items,
     },

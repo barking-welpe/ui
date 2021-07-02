@@ -13,21 +13,21 @@ export const Button: React_2.FC<IButtonProps>;
 // @public
 export interface IButtonProps {
     // (undocumented)
+    backgroundColor: string;
+    // (undocumented)
     label: string;
     // (undocumented)
     onClick?: () => void;
-    // (undocumented)
-    primary: boolean;
 }
 
 // @public
 export interface IButtonStProps {
     // (undocumented)
+    backgroundColor?: string;
+    // (undocumented)
     onClick?: () => void;
     // (undocumented)
-    primary: boolean;
-    // (undocumented)
-    theme: Theme;
+    theme?: Theme;
 }
 
 

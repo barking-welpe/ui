@@ -16,7 +16,7 @@ export interface IButtonProps
 
 |  Property | Type | Description |
 |  --- | --- | --- |
+|  [backgroundColor](./button.ibuttonprops.backgroundcolor.md) | string |  |
 |  [label](./button.ibuttonprops.label.md) | string |  |
 |  [onClick?](./button.ibuttonprops.onclick.md) | () =&gt; void | <i>(Optional)</i> |
-|  [primary](./button.ibuttonprops.primary.md) | boolean |  |
 

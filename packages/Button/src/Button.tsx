@@ -7,11 +7,11 @@ import { ButtonSt } from './Button.css';
  */
 export const Button: React.FC<IButtonProps> = ({
   label,
-  primary = false,
+  backgroundColor,
   onClick = () => undefined,
 }) => {
   return (
-    <ButtonSt primary={primary} onClick={onClick}>
+    <ButtonSt backgroundColor={backgroundColor} onClick={onClick}>
       {label}
     </ButtonSt>
   );

@@ -8,16 +8,16 @@ import type { Theme } from '@barking-welpe/theme';
 export interface IButtonProps {
   /**
    * @remarks
-   * Is this the principal call to action on the page?
+   * button background color
    */
-  primary: boolean;
+  backgroundColor: string;
   /**
    * @remarks
    * Button contents
    */
   label: string;
   /**
-   * @remarks  
+   * @remarks
    * Optional click handler
    */
   onClick?: () => void;
@@ -28,7 +28,7 @@ export interface IButtonProps {
  * @public
  */
 export interface IButtonStProps {
-  theme: Theme;
-  primary: boolean;
+  theme?: Theme;
+  backgroundColor?: string;
   onClick?: () => void;
 }

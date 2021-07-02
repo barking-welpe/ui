@@ -16,7 +16,7 @@ export interface IButtonStProps
 
 |  Property | Type | Description |
 |  --- | --- | --- |
+|  [backgroundColor?](./button.ibuttonstprops.backgroundcolor.md) | string | <i>(Optional)</i> |
 |  [onClick?](./button.ibuttonstprops.onclick.md) | () =&gt; void | <i>(Optional)</i> |
-|  [primary](./button.ibuttonstprops.primary.md) | boolean |  |
-|  [theme](./button.ibuttonstprops.theme.md) | [Theme](./theme.theme.md) |  |
+|  [theme?](./button.ibuttonstprops.theme.md) | [Theme](./theme.theme.md) | <i>(Optional)</i> |
 

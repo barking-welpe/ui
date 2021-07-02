@@ -10,6 +10,21 @@
   </a>
 </p>
 
+### Troubleshooting
+
+- storybook panel not opening
+
+```js
+localStorage.clear();
+```
+
+- storybook showing blank white page
+
+```sh
+rm -rf node_modules
+yarn
+```
+
 ### 🏠 [Homepage](https://github.com/barking-welpe/ui)
 
 ### 📝 [Docs](https://barking-welpe.github.io/ui/)
@@ -43,16 +58,17 @@ yarn run test
 
 👤 **Dan Kreiger**
 
-* Website: http://www.dankreiger.com
-* Github: [@dankreiger](https://github.com/dankreiger)
+- Website: http://www.dankreiger.com
+- Github: [@dankreiger](https://github.com/dankreiger)
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/barking-welpe/ui/issues). 
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/barking-welpe/ui/issues).
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
 
-***
+---
+
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_

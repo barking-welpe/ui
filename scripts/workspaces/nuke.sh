@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 echo "┏━━━ 💣 NUKE ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-lerna run --scope @barking-welpe/* --parallel nuke
+yarn lerna run build --concurrency $(ls -l packages | grep -c ^d)

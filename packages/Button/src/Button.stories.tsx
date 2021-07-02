@@ -17,11 +17,12 @@ const Template: Story<IButtonProps> = (args) => <Button {...args} />;
 
 export const Primary = Template.bind({});
 Primary.args = {
-  primary: true,
   label: 'Button',
+  backgroundColor: 'purple',
 };
 
 export const Secondary = Template.bind({});
 Secondary.args = {
   label: 'Button',
+  backgroundColor: 'white',
 };
