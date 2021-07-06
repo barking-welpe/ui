@@ -41,7 +41,7 @@
     "@storybook/addon-jest": "6.3.2",
     "@storybook/addon-links": "6.3.2",
     "@storybook/react": "6.3.2",
-    "@types/jest": "26.0.23",
+    "@types/jest": "26.0.24",
     "@types/styled-components": "5.1.10",
     "@typescript-eslint/eslint-plugin": "4.28.1",
     "@typescript-eslint/parser": "4.28.1",
