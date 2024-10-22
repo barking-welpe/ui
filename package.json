@@ -29,7 +29,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/core": "7.14.6",
+    "@babel/core": "7.25.9",
     "@commitlint/cli": "12.1.4",
     "@commitlint/config-conventional": "12.1.4",
     "@commitlint/config-lerna-scopes": "12.1.4",
